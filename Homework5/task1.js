@@ -1,4 +1,4 @@
-const averageGrade = 71;
+const averageGrade = 93;
 
 
 if (averageGrade < 60) {
