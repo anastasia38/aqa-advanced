@@ -11,5 +11,5 @@ export default defineConfig([
 			globals: globals.browser,
 		},
 	},
-	globalIgnores(['.config/*']),
+	globalIgnores(['.config/*', 'node_modules/**', 'dist/**', 'build/**']),
 ]);
