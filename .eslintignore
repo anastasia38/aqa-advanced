@@ -1,0 +1,21 @@
+# Ignore artifacts:
+build
+coverage
+
+# Dependencies
+node_modules/
+
+# Rest
+test.js
+export default [
+  {
+    ignores: ['node_modules/**', 'path/to/ignored/files/**', '*.test.js'],
+  },
+  // твій основний конфіг ESLint
+  {
+    files: ['**/*.js'],
+    rules: {
+      // твої правила ESLint
+    },
+  },
+];
