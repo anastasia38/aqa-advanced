@@ -4,11 +4,11 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"format": "prettier Homework10 --write",
+		"test": "jest",
+		"format": "prettier Homework15 --write",
 		"prepare": "husky",
-		"lint": "eslint Homework10 --ext js",
-		"lint:fix": "eslint . --ext js --fix"
+		"lint": "eslint Homework15",
+		"lint:fix": "eslint .  --fix"
 	},
 	"repository": {
 		"type": "git",
